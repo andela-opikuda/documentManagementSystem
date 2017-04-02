@@ -18,5 +18,7 @@ engines:
 ratings:
   paths:
   - "**.js"
+  - "**.css"
 exclude_paths:
-
+- "jasmine/"
+- "bundle.js"
