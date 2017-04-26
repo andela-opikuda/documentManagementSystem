@@ -7,7 +7,7 @@ import UserDocs from '../containers/docs/userDocs.component.jsx';
 import PrivateDocs from '../containers/docs/privateDocs.component.jsx';
 import PublicDocs from '../containers/docs/publicDocs.component.jsx';
 import RoleDocs from '../containers/docs/roleDocs.component.jsx';
-import MyDocs from '../containers/docs/MyDocs.component.jsx';
+import MyDocs from '../containers/docs/myDocs.component.jsx';
 import CreateDocument from '../containers/docs/createDocForm.component'
 import EditDocument from '../../actions/documentManagement/editDocument';
 import DeleteDocument from '../../actions/documentManagement/deleteDocuments';

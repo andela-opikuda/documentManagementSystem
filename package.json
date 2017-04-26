@@ -4,8 +4,7 @@
   "description": "A full stack document management system, complete with roles and privileges",
   "main": "app.js",
   "scripts": {
-    "start": "npm run sass && nodemon app.js --exec babel-node",
-    "sass": "./node_modules/.bin/node-sass ./client/src/scss/main.scss ./client/dist/main.css && webpack",
+    "start": "./node_modules/.bin/webpack && nodemon app.js --exec babel-node",
     "mig:test": "cross-env NODE_ENV=test sequelize db:migrate",
     "mig:dev": "cross-env NODE_ENV=development sequelize db:migrate",
     "mig:test:undo": "cross-env NODE_ENV=test sequelize db:migrate:undo:all",
